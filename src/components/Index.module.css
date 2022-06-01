@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.item {
+    padding: 3rem;
+    flex-basis: 50%;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+}
