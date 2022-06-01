@@ -7,19 +7,19 @@ function Template () {
                 <div className={styles.item}>
 
                     <div className={styles.child}>
-                        <label>Conta</label>
-                        <input type="number"></input>
+                        <label className={styles.titulo}>Conta</label>
+                        <input type="number" className={styles.valor}></input>
 
-                        <label>Selecione gorjeta %</label>
-                        <button>5%</button>
-                        <button>10%</button>
-                        <button>15%</button>
-                        <button>25%</button>
-                        <button>50%</button>
-                        <input></input>
+                        <label className={styles.titulo}>Selecione gorjeta %</label>
+                        <button className={styles.botao}>5%</button>
+                        <button className={styles.botao}>10%</button>
+                        <button className={styles.botao}>15%</button>
+                        <button className={styles.botao}>25%</button>
+                        <button className={styles.botao}>50%</button>
+                        <input className={styles.botao}></input>
 
-                        <label>Numero de Pessoas</label>
-                        <input type="number"></input>
+                        <label className={styles.titulo}>Numero de Pessoas</label>
+                        <input type="number" className={styles.valor}></input>
                     </div>
 
                 </div>

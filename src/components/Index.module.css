@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 5rem auto;
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .item {
@@ -10,7 +12,21 @@
     flex-basis: 50%;
 }
 
-.child {
-    display: flex;
-    flex-direction: column;
+.botao {
+    display: inline-block;
+    height: 3rem;
+    width: 20%;
+    margin: 1rem;
+}
+
+.titulo {
+    display: block;
+    text-align: left;
+    margin: 0 3rem;
+}
+
+.valor {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
 }
