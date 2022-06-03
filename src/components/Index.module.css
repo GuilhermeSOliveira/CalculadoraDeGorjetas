@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem auto;
+    margin: 15rem auto;
     width: 60%;
-    background-color: hsl(0, 0%, 100%);
+    background-color: #FFF;
+    border-radius: 2rem;
+    font-family: 'Space Mono', monospace;
 }
 
 .item {
@@ -12,11 +14,32 @@
     flex-basis: 50%;
 }
 
-.botao {
+.botao, .inputbotao {
     display: inline-block;
     height: 3rem;
     width: 20%;
     margin: 1rem;
+    font-family: 'Space Mono', monospace;
+    color: #FFF;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.botao {
+    background-color: hsl(183, 100%, 15%);
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: hsl(172, 67%, 45%);
+}
+
+.inputbotao {
+    background-color: hsl(189, 41%, 97%);
+    border: solid hsl(172, 67%, 45%);
+    text-align: right;
+    color: hsl(183, 100%, 15%);
 }
 
 .titulo {
@@ -29,4 +52,11 @@
     display: block;
     width: 80%;
     margin: 1rem auto;
+    padding: 1rem;
+    font-family: 'Space Mono', monospace;
+    border-radius: 0.5rem;
+    border: solid hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    font-size: 1.5rem;
 }

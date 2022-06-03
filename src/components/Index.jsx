@@ -16,7 +16,7 @@ function Template () {
                         <button className={styles.botao}>15%</button>
                         <button className={styles.botao}>25%</button>
                         <button className={styles.botao}>50%</button>
-                        <input className={styles.botao}></input>
+                        <input className={styles.inputbotao}></input>
 
                         <label className={styles.titulo}>Numero de Pessoas</label>
                         <input type="number" className={styles.valor}></input>
