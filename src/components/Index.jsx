@@ -6,7 +6,7 @@ function Template () {
             <section className={styles.container}>
                 <div className={styles.item}>
 
-                    <div className={styles.child}>
+                    <div className={styles.primeiraParte}>
                         <label className={styles.titulo}>Conta</label>
                         <input type="number" className={styles.valor}></input>
 
@@ -26,16 +26,21 @@ function Template () {
 
                 <div className={styles.item}>
 
-                    <div className={styles.child}>
-                        <p>Valor da Gorjeta</p>
-                        <subtitle>/ pessoa</subtitle>
-                        <h1>!</h1>
-                    
-                        <p>Total</p>
-                        <subtitle>/ pessoa</subtitle>
-                        <h1>!</h1>
+                    <div className={styles.segundaParte}>
+                        <div className={styles.texto}>
+                            <h1>Tip Amount</h1>
+                            <h2>/Person</h2>
+                            <h1>Total</h1>
+                            <h2>/Person</h2>
+                        </div>
 
-                        <button>Reset</button>
+                        <div className={styles.gorjetaValor}>
+                            <h1>$0,00</h1>
+                            <h1>$0,00</h1>
+                        </div>
+
+                        <button className={styles.reset}>Reset</button>
+
                     </div>
 
                 </div>
