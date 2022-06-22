@@ -74,10 +74,11 @@
 }
 
 .gorjetaValor {
-    position: fixed;
+    position: absolute;
     left: 75%;
     top: 40%;
     font-size: 2rem;
+    color: #30bdad;
 }
 
 .reset {
@@ -85,4 +86,14 @@
     margin-top: 7rem;
     height: 4rem;
     border-radius: 0.75rem;
+    background-color: #9fe8df;
+    border: none;
+    font-size: 2rem;
+    color: #014946;
+}
+
+.reset:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 500ms;
 }
